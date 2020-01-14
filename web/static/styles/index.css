@@ -1,0 +1,142 @@
+/*todo убрать комментарии*/
+body {
+
+    background-color:whitesmoke;
+    background-size: 100%;
+}
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: #121212;
+}
+
+.header {
+    overflow: hidden;
+    background: #49bfbb;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: #121212;
+}
+
+.main {
+    overflow: auto;
+    margin: 120px auto 0px;
+    padding: 10px 15px 1px;
+    display: block;
+    background: whitesmoke;
+    color: #121212;
+    width: 800px;
+    height: 100%;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+}
+
+
+#yIn{
+    border-color: rgba(87, 234, 230, 0.43);
+    background-color: #4dcfcb;
+    color: #121212;
+}
+h1{
+    margin: 10px;
+    color: #121212;
+    font-size: 22px;
+}
+h2 {
+    color: #121212;
+    font-size: 100%;
+    font-style: italic;
+    font-family: "Helvetica Neue";
+    text-align: left;
+    margin: 20px 10px 5px;
+}
+
+.warn-checkbox {
+    margin: 0px 0px 0px 10px;
+    color: #a11bff;
+}
+.warn-text {
+    border-color: #a11bff;
+}
+
+iframe {
+    border-width: 0px;
+    width: 100%;
+    height: 270px;
+}
+
+input{
+    color: black;
+    margin: 0px 10px 3px;
+}
+/*BUTTONS styles*/
+.button {
+
+    font-size: 20px;
+    color: #222222;
+    border-color: #121212;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4dcfcb), to(rgba(77, 207, 203, 0.39)));
+}
+.button:hover:enabled {
+    color: #171717;
+    border-color: #353535;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4dcfcb), to(rgba(77, 207, 203, 0.39)));
+}
+.button:disabled {
+    border-color: rgba(23, 23, 23, 0.82);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4dcfcb), to(rgba(77, 207, 203, 0.39)));
+    color: #353535;
+}
+.button.in-button{
+    width: 32px;
+    margin: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.button.submit-button{
+    margin: 15px 5px 10px 10px;
+
+}
+.button.history-button{
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+
+.button-div{
+    margin: 0px 0px 0px 10px;
+}
+
+.main #canvas-div {
+    float: right;
+    margin-right: 150px;
+}
+.result-table{
+    border-collapse: collapse;
+    padding: 0;
+    font-size: 15px;
+}
+.result-table td, .result-table th{
+
+    text-align: center;
+}
+.result-table th{
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.warn{
+    color: #a11bff;
+}
+
+.change-input{
+    width: 70px;
+}
+

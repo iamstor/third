@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+>
+<h:head>
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="static/styles/index.css"/>
+</h:head>
+<h:body>
+    <div class="header">
+            <p>Сторожева Дарья, группа Р3214</p>
+            <p>Лабораторная работа №3</p>
+            <p>Вариант 216002</p>
+        </div>
+
+
+
+    <div class="main">
+
+
+        <h:panelGrid columns="3" width="100%">
+
+        <h:panelGroup>
+          <div>
+            Добро пожаловать!
+            </div>
+            <div id="time-container"></div>
+            <script src="static/scripts/clock.js" type="text/javascript"></script>
+            <h:form>
+                <p:inputText required="true" placeholder="Введите логин" requiredMessage="Не оставляйте поле пустым."
+                             id="name" value="#{name.name}"/>
+                <br/><br/>
+
+                <h:commandButton styleClass="history-button button" action="GoToSite" value="Войти"/>
+            </h:form>
+        </h:panelGroup>
+
+        </h:panelGrid>
+
+    </div>
+</h:body>
+</html>
